@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 16px;
+  font-family: "Roboto","Microsoft JhengHei","PingFang TC"; }
+  body .container-fluid {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 0px; }
+    body .container-fluid .navBar {
+      background-color: rgba(0, 0, 0, 0.8);
+      position: fixed;
+      width: 100%;
+      z-index: 10;
+      -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+              box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+      body .container-fluid .navBar .menu li a {
+        display: block;
+        padding: 10px 15px;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        color: #a7a7a7; }
+        body .container-fluid .navBar .menu li a:hover {
+          color: #fff; }
+      body .container-fluid .navBar .menu li .active {
+        color: #fff; }
+      body .container-fluid .navBar .contactIcon a {
+        color: #a7a7a7;
+        text-decoration: none; }
+        body .container-fluid .navBar .contactIcon a i {
+          font-size: 20px; }
+          body .container-fluid .navBar .contactIcon a i:hover {
+            color: #fff; }
+    body .container-fluid .Portfolio {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 100px; }
+      body .container-fluid .Portfolio .row {
+        margin: 30px 0; }
+      body .container-fluid .Portfolio .col {
+        height: 100px;
+        background-color: red;
+        margin: 0 1%;
+        height: auto;
+        max-height: 360px;
+        overflow: hidden;
+        border-radius: 10px;
+        background-image: -webkit-linear-gradient(45deg, #3f3f46 0%, #6A5ACD 100%);
+        background-image: -o-linear-gradient(45deg, #3f3f46 0%, #6A5ACD 100%);
+        background-image: linear-gradient(45deg, #3f3f46 0%, #6A5ACD 100%); }
+        body .container-fluid .Portfolio .col .effectItem {
+          max-width: none;
+          width: calc(100% + 100px);
+          -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+          transition: opacity 0.35s, -webkit-transform 0.35s;
+          -o-transition: opacity 0.35s, transform 0.35s;
+          transition: opacity 0.35s, transform 0.35s;
+          transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+          -webkit-transform: translate3d(-50px, 0, 0);
+                  transform: translate3d(-50px, 0, 0); }
+        body .container-fluid .Portfolio .col img {
+          position: relative;
+          display: block;
+          min-height: 100%;
+          max-width: 100%;
+          opacity: 0.8; }
+        body .container-fluid .Portfolio .col .Item {
+          padding: 1.5em;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          text-decoration: none;
+          color: white; }
+          body .container-fluid .Portfolio .col .Item::before {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            bottom: 20px;
+            left: 20px;
+            border: 1px solid #fff;
+            content: '';
+            opacity: 0;
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, -webkit-transform 0.35s;
+            -o-transition: opacity 0.35s, transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+            -webkit-transform: translate3d(-20px, 0, 0);
+                    transform: translate3d(-20px, 0, 0); }
+          body .container-fluid .Portfolio .col .Item h2 {
+            -webkit-transition: all .3s;
+            -o-transition: all .3s;
+            transition: all .3s;
+            -webkit-transform: translate3d(20px, 0, 0);
+                    transform: translate3d(20px, 0, 0);
+            margin-bottom: 10px;
+            margin-left: 20px;
+            font-size: 32px;
+            letter-spacing: 1.5;
+            opacity: 0; }
+          body .container-fluid .Portfolio .col .Item p {
+            -webkit-transform: translate3d(-20px, 0, 0);
+                    transform: translate3d(-20px, 0, 0);
+            -webkit-transition: all .3s;
+            -o-transition: all .3s;
+            transition: all .3s;
+            margin-left: 20px;
+            letter-spacing: 1.2;
+            opacity: 0; }
+      body .container-fluid .Portfolio .active .effectItem {
+        opacity: 0.4;
+        -webkit-transform: translate3d(-20px, 0, 0);
+                transform: translate3d(-20px, 0, 0); }
+      body .container-fluid .Portfolio .active .Item:before {
+        opacity: 1;
+        -webkit-transform: translate3d(0px, 0, 0);
+                transform: translate3d(0px, 0, 0); }
+      body .container-fluid .Portfolio .active .Item h2 {
+        opacity: 1;
+        -webkit-transform: translate3d(0px, 0, 0);
+                transform: translate3d(0px, 0, 0); }
+      body .container-fluid .Portfolio .active .Item p {
+        opacity: 1;
+        -webkit-transform: translate3d(0px, 0, 0);
+                transform: translate3d(0px, 0, 0); }
+
+/*# sourceMappingURL=all.css.map */
