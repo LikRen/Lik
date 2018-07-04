@@ -24,7 +24,6 @@
 
  * Adam Elements 亞果元素外包案
  * 台中火力發電廠內網外包案
- * 個人作品集外包案
 
 <hr>
 
@@ -35,7 +34,7 @@
   * 使用 Sass 管理網頁樣式。
   * 使用 Gulp 自動化前端任務。
   * 使用 AJAX 撈取遠端JSON資料應用。
-  * 了解 Javascript 基本語法，並使用 Jquery / CSS3 呈現網頁動態效果。
+  * 了解 Javascript 基本語法，並使用 jQuery / CSS3 呈現網頁動態效果。
   * 了解 Git / Github 與基本指令運用。
   * 了解 FlexBox / Grid 基本運用。
   * 了解 Photoshop、Illustrator 基本工具操作。
