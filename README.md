@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# 任遠忠 (Lik)
+ - Education： 嘉義大學-幼兒教育學系
+ - Location： Taoyuan / Taipei
+ - E-Mail： chasel1020@gmail.com
+ - Personal Website： https://likren.github.io/Lik/
 
-You can use the [editor on GitHub](https://github.com/LikRen/Lik/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<hr>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 工作經歷
 
-### Markdown
+#### 永齡希望小學偏鄉課輔老師 (2014 - 2016)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 嘉義縣攜手計畫新港國中課輔老師 (2014 - 2016)
 
-```markdown
-Syntax highlighted code block
+#### 三商美邦人壽業務主任 (2014 - 2016)
 
-# Header 1
-## Header 2
-### Header 3
+#### 唯美數位科技有限公司 (2016 - 2017)
 
-- Bulleted
-- List
+ * 參與公司新版網頁開發專案
+ * 前、後端溝通，API 串接
+ * 客製化網站、 配合企劃完成相關網站
+ 
+#### Freelance (2018 - )
 
-1. Numbered
-2. List
+ * Adam Elements 亞果元素外包案
+ * 台中火力發電廠內網外包案
+ * 個人作品集外包案
 
-**Bold** and _Italic_ and `Code` text
+<hr>
 
-[Link](url) and ![Image](src)
-```
+## 專業技能
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+  * 熟悉 HTML5 + CSS 完成RWD頁面架構和布局，不倚賴 CSS Framework 進行 RWD 客製化。
+  * 使用 Bootstrap4 快速開發響應式網頁。
+  * 使用 Sass 管理網頁樣式。
+  * 使用 Gulp 自動化前端任務。
+  * 使用 AJAX 撈取遠端JSON資料應用。
+  * 了解 Javascript 基本語法，並使用 Jquery / CSS3 呈現網頁動態效果。
+  * 了解 Git / Github 與基本指令運用。
+  * 了解 FlexBox / Grid 基本運用。
+  * 了解 Photoshop、Illustrator 基本工具操作。
+ 
+<hr>
 
-### Jekyll Themes
+## 我的作品
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LikRen/Lik/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+https://likren.github.io/Lik/
+ 
+<hr>
 
-### Support or Contact
+## 個人特質
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  * 喜歡接觸並挑戰新事物並與他人分享。
+  * 擅長傾聽並在過程中探索需求且提出附有建設性建議。
+  * 富有責任感帶一點偏執、自戀。
